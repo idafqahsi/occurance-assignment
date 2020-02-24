@@ -2,6 +2,7 @@ package main.java;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class Occurance {
 
@@ -30,7 +31,10 @@ public static void main(String[]args){
                 }
             }
         }
+        TreeMap<String, String> sorted = new TreeMap<>();
 
-        System.out.println("Count :- " + map);
+        // Copy all data from hashMap into TreeMap
+        sorted.putAll(map);
+        System.out.println("Count :- " + sorted);
     }
 }
