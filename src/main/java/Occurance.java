@@ -1,7 +1,10 @@
 package main.java;
 
+
+
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 public class Occurance {
 
@@ -91,4 +94,6 @@ public class Occurance {
     }
 
 
+
+>>>>>>> cd476c7dfde6a08a38f286fba0dcd634b5e2fb04
 }
