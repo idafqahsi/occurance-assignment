@@ -1,6 +1,7 @@
 package main.java;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Occurance {
 
@@ -44,43 +45,50 @@ public class Occurance {
 
     public void countUsingArrayList(String input) {
         List<String> list = new ArrayList<String>();
-        list = Arrays.asList(input.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+"));
-        //String[] words = instring.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+");
-
         List<String> save = new ArrayList<String>();
 
+        list = Arrays.asList(input.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+"));
         Collections.sort(list);
+
         int count;
         String word;
 
+        List<String> deDupStringList = list.stream().distinct().collect(Collectors.toList());
 
+        String[][] wordNCountNPercentage = new String[deDupStringList.size()][3];
+        int index = 0;
 
+        int totalCount = 0;
         for (int i = 0; i < list.size(); i++) {
 
             word = list.get(i).toLowerCase();
-            String[][] wordNCountNPercentage = new String[][];
-            if (!save.contains(word)) {
 
+            if (!save.contains(word)) {
                 count = Collections.frequency(list, word);
-                System.out.println("-" + word + " >  " + count);
                 save.add(word);
+                wordNCountNPercentage[index][0] = word;
+                wordNCountNPercentage[index][1] = Integer.toString(count);
+                wordNCountNPercentage[index++][2] = Integer.toString(count);
+
+                totalCount += count;
             }
+        }
+
+
+        for (int i = 0; i < wordNCountNPercentage.length; i++) {
+
+
+            wordNCountNPercentage[i][2] =  Double.toString(Double.parseDouble(wordNCountNPercentage[i][1]) * 100 / totalCount );
+
+
+            System.out.print(wordNCountNPercentage[i][0] + " ");
+            System.out.print(wordNCountNPercentage[i][1] + " ");
+            System.out.println(wordNCountNPercentage[i][2]);
 
         }
+
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
