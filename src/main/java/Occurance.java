@@ -1,5 +1,5 @@
 package main.java;
-
+import java.util.*; 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
@@ -36,5 +36,17 @@ public class Occurance {
         // Copy all data from hashMap into TreeMap
         sorted.putAll(map);
         System.out.println("Count :- " +sorted);
+    }
+    public void countWordsLinkedList(String input) {
+    	LinkedList<String> object = new LinkedList<String>();
+    	
+    	
+    	String[] words = input.split("\\s+");
+    	for (int i = 0; i < words.length; i++) {
+    	    // You may want to check for a non-word character before blindly
+    	    // performing a replacement
+    	    // It may also be necessary to adjust the character class
+    	    words[i] = words[i].replaceAll("[^\\w]", "");
+    	}
     }
 }
