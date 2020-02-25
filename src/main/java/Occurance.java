@@ -1,11 +1,9 @@
 package main.java;
-<<<<<<< HEAD
 
-=======
 
 
 import java.util.*;
->>>>>>> cd476c7dfde6a08a38f286fba0dcd634b5e2fb04
+
 
 public class Occurance {
 
@@ -73,20 +71,7 @@ public class Occurance {
 
         }
     }
-<<<<<<< HEAD
-    public void countWordsLinkedList(String input) {
-    	LinkedList<String> object = new LinkedList<String>();
-    	
-    	
-    	String[] words = input.split("\\s+");
-    	for (int i = 0; i < words.length; i++) {
-    	    // You may want to check for a non-word character before blindly
-    	    // performing a replacement
-    	    // It may also be necessary to adjust the character class
-    	    words[i] = words[i].replaceAll("[^\\w]", "");
-    	}
-    }
-=======
+
 
 
 
