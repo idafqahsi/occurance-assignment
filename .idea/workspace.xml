@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="occurance-assignment" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -83,22 +86,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582569992569" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582637011127">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582657221708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582637011127" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582637011127">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582657221708" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582657221707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582637011127" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582637011127">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582657221707" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582657221707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582637011127" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582637011127">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582657221707" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582657221708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582637011127" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582657221708" />
     <state x="241" y="133" key="SettingsEditor" timestamp="1582570933934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -107,6 +110,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582631986787" />
+    <state x="606" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582656124245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="606" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582656124245" />
     <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1582576743654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
