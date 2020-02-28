@@ -69,6 +69,13 @@ public class Occurance {
 
         }
     }
+    public static void occuranceUsingHashSet() throws IOException {
+        Scanner file = new Scanner(new File("test.txt"));
+        ArrayList<String> stopwords = (ArrayList<String>) Files.readAllLines(Paths.get("stop_words.txt"));
+
+
+        
+    }
 
     public static void main(String[] args) throws IOException {
         Instant start = Instant.now();

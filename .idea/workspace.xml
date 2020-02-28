@@ -32,6 +32,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
@@ -70,8 +72,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582568952238</updated>
+      <workItem from="1582882612409" duration="400000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582570005556">
@@ -106,9 +112,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="241" y="133" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582570933934" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582631986787">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="467" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1582882625862">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="467" y="242" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582882625862" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582631986787" />
     <state x="606" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582656124245">
       <screen x="0" y="0" width="1920" height="1040" />
