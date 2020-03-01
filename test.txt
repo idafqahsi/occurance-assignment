@@ -1,0 +1,8 @@
+
+In this assignment you need to use three different collections implementations to store and show sorted
+version of the output for the given problem, including processing time each implementation has taken.
+Your code should take an input file from the user and counts the number of different words in the file along
+with the number of occurrences of each word. Subsequently, the output would be given as follow: Different
+words in the document in alphabetical order. Occurrence number of each word. The percentage of word
+occurrence in the document. You should implement this functionality using three different objects from
+Collection API. Moreover, you should report the execution time for each collection object you have used.
